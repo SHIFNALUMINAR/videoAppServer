@@ -1,0 +1,65 @@
+server creation 
+---------------
+
+1- create a new folder for server 
+
+server - node - express
+              - json-server
+
+npm - node modules
+    - package.json
+
+2- create package.json file  in node server  
+   -> npm init -y
+
+3-install json-server  - npm i json-server@0.17.4
+
+
+
+
+api request
+------------
+
+add video -(title,cover image url,video url) -post
+access videos - get
+add new category - cat name - post
+access categories - get
+drag and drop- upadate category 
+add history - (date &time,title,videoUrl)- post 
+get histories - get 
+video delete - id -delete
+cat delete - id - delete
+history delete - id - delete
+
+import 
+--------
+
+import - provide top of the file
+require - can use anywhere in a file
+
+CORS (cross origin resource sharing)
+------------------------------------
+
+library used to connect front-end with server 
+-npm i cors
+
+-----------------------------------------------------------------------
+
+data conversion (json-js) before resolving each api request 
+
+middlewares 
+
+1 - application specific middleware - apply middleware for application bcz all request 
+                                      in that server app need the middleware
+2 - router specific middleware      - apply middleware for only specic requests that 
+                                      need middleware
+
+
+-----------------------------------------------------------------------------
+
+nodemon - provide automatic recombilation
+
+npm i -g nodemon 
+
+port 8001
+npx nodemon index.js
